@@ -5,8 +5,6 @@
 function getRandomNumber(max) {
   return Math.ceil(Math.random() * max);
 }
-
-/* CORRECCIÓN: La constante random (cuando invocamos a la función anterior) habría que sacarla de la función, para que el número aleatorio no se genere cada vez que se hace clic.*/
 const random = getRandomNumber(100);
 //console.log(`Mi número aleatorio es: ${random}`);  
 
