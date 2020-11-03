@@ -1,0 +1,53 @@
+.page {
+  background-color: rgb(245, 240, 179);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:rgb(238, 39, 172);
+  margin-top: 40px;
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputNumber {
+  margin-top: 20px;
+  margin-bottom:30px;
+  width: 250px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 20px;
+  font-size: 25px;
+}
+.submitButton {
+  border-radius: 10%;
+  padding: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(199, 6, 103);
+  border: none;
+}
+.clue{
+  margin-top: 40px;
+  margin-bottom: 0;
+
+}
+
+.clueTitle {
+  font-weight: bold;
+}
+
+.attemptsTitle {
+  font-weight: bold;
+}
+.footer {
+  position: fixed;
+  bottom: 30px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Guess the number</title>
+  </head>
+  <body class= "page">
+    <header class="header">
+      <h1 class="js-title">Adivina el número</h1>
+    </header>
+    <main>
+      <form class="form">
+        <label for="input-number">Introduce aquí tu número:</label>
+        <input type="text" class=" inputNumber js-input-number" id="input-number" placeholder="1"
+        />
+        <label for="button"></label>
+        <input type="button" value="Prueba" class="submitButton js-submit-button" id="button"/>
+       <!--  Los párrafos sacarlos del formulario -->
+      </form>
+      <p class="clue">
+        <span class="clueTitle">Pista:</span> 
+        <span  class="js-clue">Escribe el número y dale a prueba</span>
+      </p>
+      <p>
+        <span class="attemptsTitle">Número de intentos: </span> 
+        <span class="js-attempts">0</span></p>
+    </main>
+    <footer class="footer">
+      <div class="footer-copy">
+        <small>&copy;Ana Maria Caruntu</small>
+    </footer>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
