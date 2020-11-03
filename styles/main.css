@@ -1,44 +1,70 @@
 .page {
   background-color: rgb(245, 240, 179);
+  background-image: url('../img/wallpaperazar.jpg');
+  background-attachment: fixed;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   color:rgb(238, 39, 172);
-  margin-top: 40px;
+  margin-top: 20px;
   height: 100%;
   font-family: 'Ubuntu', sans-serif;
 }
-
+.header__h1 {
+  font-size: 35px;
+  color:rgb(238, 39, 172);
+  text-transform: lowercase;
+  text-shadow: 1px 2px 0px rgb(31, 28, 56);
+}
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.inputNumber {
-  margin-top: 20px;
-  margin-bottom:30px;
-  width: 250px;
-  height: 100px;
-  border-radius: 50%;
-  text-align: center;
-  font-weight: 20px;
-  font-size: 25px;
-}
-.submitButton {
-  border-radius: 10%;
-  padding: 6px;
-  text-transform: uppercase;
+.game_label{
+  color:rgb(238, 39, 172);;
+  font-size: 20px;
   font-weight: bold;
+
+}
+.inputNumber {
+ margin-top: 20px;
+  display: block;
+  background-color: #031e68;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  color:white;
+  border-radius: 100px;
+  width: 150px;
+  height: 85px;
+}
+
+.inputNumber::placeholder {
+  font-weight: 200;
+  font-size: 35px;
+  color:white;
+}
+
+.submitButton {
+  font-weight: small;
+  padding: 6px;
+  text-transform: lowercase;
   margin-top: 10px;
   color: white;
   background-color: rgb(199, 6, 103);
   border: none;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.514);
 }
-.clue{
-  margin-top: 40px;
-  margin-bottom: 0;
 
-}
 
 .clueTitle {
   font-weight: bold;
@@ -46,6 +72,22 @@
 
 .attemptsTitle {
   font-weight: bold;
+}
+
+.game_clue,
+.game_attempts {
+  margin-top:150px;
+  color:#031e68;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  padding: 8px;
+  background-color:rgb(241, 232, 132);
+  border-radius: 50px;
+  box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.game_clue{
+  margin-top:150px;
 }
 .footer {
   position: fixed;
